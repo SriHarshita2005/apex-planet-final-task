@@ -1,0 +1,90 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffe4b5, #ffecd2);
+  padding: 30px;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2e2e2e;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+select {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #ff944d;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 25px;
+  background-color: #fff5ee;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+select:hover {
+  background-color: #ffe0cc;
+}
+
+#recommendations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.movie-card h4 {
+  font-size: 16px;
+  color: #fff;
+  margin: 10px 0 5px;
+}
+
+.movie-card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
